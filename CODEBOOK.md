@@ -1,6 +1,6 @@
 CodeBook:
 
-   This codebook describes the variables,data, and all transformations  performed to clean up the dataset.
+   This codebook describes the variables,data, and all transformations  performed to clean up  and obtain the tidy dataset.
 
 Data source:
 
@@ -19,7 +19,8 @@ Data Set Information
 The Data
 
   The dataset includes the following files:
-  'README.txt'
+  
+  README.txt
 
   'features_info.txt': Shows information about the variables used on the feature vector.
 
@@ -42,8 +43,8 @@ The Data
   2. Measurements on the mean and standard deviation for each measurement Extracted.
   3. Descriptive activity names used to name the activities in the data set
   4. Data set labels appropriately labelled with descriptive activity names.
-  5. Independent tidy data set with the average of each variable for each activity and each subject created.
+  5. Independent tidy dataset with the average of each variable for each activity and each subject created.
 
-The R script```run_analysis.R``` is used to achieve the transformation detailed above:
+The R script`run_analysis.R` is used to achieve the transformation detailed above:
 
-The R script run_analysis. R require ```reshapre2``` and ```data.table``` libraries in R packages to function.
+The R script 'run_analysis. R' require ``reshapre2``` and ```data.table``` libraries in R packages to function.
