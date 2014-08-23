@@ -47,4 +47,4 @@ The Data
 
 The R script`run_analysis.R` is used to achieve the transformation detailed above:
 
-The R script 'run_analysis. R' require ``reshapre2``` and ```data.table``` libraries in R packages to function.
+The R script 'run_analysis. R' require ``reshapre2``` and ```data.table``` packages in R studio to function.
