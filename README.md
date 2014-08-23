@@ -11,8 +11,8 @@ This Project created an R script called run_analysis.R that does the following.
 Steps used to work on project:
   
     1.Downloaded the data source into a folder on the local drive. Creating UCI HAR Dataset folder.
-    2. run_analysis.R is put in the parent folder of UCI HAR Dataset, then this folder set  as the working directory using setwd() function in RStudio.
-    3.source("run_analysis.R") is run to clean up and merge datasets and to generate a new file tidy_data.txt in the working directory.
+    2. run_analysis.R is put in the parent folder of UCI HAR Dataset, then this folder  is set as the working directory using setwd() function in RStudio.
+    3.the command source("run_analysis.R") is run to clean up and merge datasets and to generate a new file tidy_data.txt in the working directory.
 
     Dependency:
-    run_analysis.R also installs its dependency libraries automatically. It depends on reshape2 and data.table libraries to run successfully.
+    run_analysis.R also installs its dependency libraries automatically. It depends on reshape2 and data.table Packages to run successfully.
